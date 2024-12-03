@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+
+    <string name="brackets">()</string>
+    <string name="clean">C</string>
+    <string name="positive_negative">+/-</string>
+    <string name="point">,</string>
+    <string name="percent">%</string>
+    <string name="divide">/</string>
+    <string name="multiply">*</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="answer">=</string>
+    
+    <string name="swap">S</string>
+    <string name="rad">Rad</string>
+    <string name="sqr">Sqrt</string>
+    <string name="sin">Sin</string>
+    <string name="cos">Cos</string>
+    <string name="tan">Tan</string>
+    <string name="_in">In</string>
+    <string name="log">Log</string>
+    <string name="fraction">1/x</string>
+    <string name="exp_power_x">e^x</string>
+    <string name="power_two">x^2</string>
+    <string name="power_y">x^y</string>
+    <string name="abs">|x|</string>
+    <string name="pi">Pi</string>
+    <string name="exp">e</string>
+
+    <string name="degrees">Deg</string>
+    <string name="cubrt">Cubrt</string>
+    <string name="sin_pow_minus_one">asin</string>
+    <string name="cos_pow_minus_one">acos</string>
+    <string name="tan_pow_minus_one">atan</string>
+    <string name="sinh_pow_minus_one">asinh</string>
+    <string name="cosh_pow_minus_one">acosh</string>
+    <string name="tanh_pow_minus_one">atanh</string>
+    <string name="sinh">sinh</string>
+    <string name="cosh">cosh</string>
+    <string name="tanh">tanh</string>
+    <string name="two_pow_x">2^x</string>
+    <string name="x_pow_cube">x^3</string>
+    <string name="x_factorial">x!</string>
+    
+    
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_not_pressed">#9C27B0</color>
+    <color name="purple_pressed">#54145F</color>
+    <color name="stroke_button_not_pressed">#7B4BD1</color>
+    <color name="stroke_button_pressed">#5E379D</color>
+    <color name="red_not_pressed">#B02727</color>
+    <color name="red_pressed">#5F1414</color>
+
+</resources>
