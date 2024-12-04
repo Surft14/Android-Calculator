@@ -13,7 +13,7 @@
     <string name="zero">0</string>
 
     <string name="brackets">()</string>
-    <string name="clean">C</string>
+    <string name="clean_all">CA</string>
     <string name="positive_negative">+/-</string>
     <string name="point">,</string>
     <string name="percent">%</string>
@@ -22,6 +22,7 @@
     <string name="minus">-</string>
     <string name="plus">+</string>
     <string name="answer">=</string>
+    <string name="cancel">X</string>
     
     <string name="swap">S</string>
     <string name="rad">Rad</string>
@@ -53,6 +54,4 @@
     <string name="two_pow_x">2^x</string>
     <string name="x_pow_cube">x^3</string>
     <string name="x_factorial">x!</string>
-    
-    
 </resources>
