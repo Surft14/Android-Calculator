@@ -900,6 +900,16 @@ class MainActivity : AppCompatActivity() {
         else clickCosh()
     }
 
-
+    fun onClickBCancel(view: View){
+        Log.d("MyLog", "Button clean click")
+        var tempText = bindingClass.tvResult.text.toString()
+        if(tempText != "0"){
+            tempText = tempText.substring(0, tempText.length - 1)
+            if (tempText == ""){
+                tempText = "0"
+            }
+            bindingClass.tvResult.text = tempText
+        }
+    }
 
 }
