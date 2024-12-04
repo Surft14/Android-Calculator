@@ -18,10 +18,9 @@ fun transformMathExpression(expression: String): String {
             lastOperatorIndex = i
         }
     }
-
     // Разделить выражение на часть до последнего оператора и последнее число
     val beforeLastNumber = if (lastOperatorIndex != -1) expression.substring(0, lastOperatorIndex + 1) else ""
-    val lastNumber = if (lastOperatorIndex != -1) expression.substring(lastOperatorIndex + 1) else expression
+    var lastNumber = if (lastOperatorIndex != -1) expression.substring(lastOperatorIndex + 1) else expression
 
     // Проверить, обернуто ли последнее число в скобки
     return if (lastNumber.startsWith("(-") && lastNumber.endsWith(")")) {
@@ -29,9 +28,23 @@ fun transformMathExpression(expression: String): String {
         Log.d("MyLog", "end transformMathExpression")
         beforeLastNumber + lastNumber.substring(2, lastNumber.length - 1)
     } else {
-        // Иначе сделать отрицательным
-        Log.d("MyLog", "end transformMathExpression")
-        beforeLastNumber + "(-$lastNumber)"
+        //
+        if(lastNumber.startsWith("(") && lastNumber.endsWith(")")){
+            lastNumber = lastNumber.substring(1, lastNumber.length - 1)
+            // Иначе сделать отрицательным
+            Log.d("MyLog", "end transformMathExpression")
+            beforeLastNumber + "(-$lastNumber)"
+        }
+        else if(lastNumber.startsWith("(")){
+            lastNumber = lastNumber.substring(1)
+            // Иначе сделать отрицательным
+            Log.d("MyLog", "end transformMathExpression")
+            beforeLastNumber + "(-$lastNumber"
+        }
+        else{
+            // Иначе сделать отрицательным
+            Log.d("MyLog", "end transformMathExpression")
+            beforeLastNumber + "(-$lastNumber)"
+        }
     }
-
 }
